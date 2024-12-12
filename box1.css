@@ -31,8 +31,11 @@
 .form-group{
     padding-left: 50px;
     padding-top: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
 }
-.form-group input{
+.form-group input,.form-group textarea{
     width: 500px;
     padding-left: 10px;
     margin-left: 50px;
@@ -47,6 +50,10 @@ button{
 form input{
    
     align-items: center;
+}
+label{
+    width: 100px;
+    display: inline-block;
 }
 
 
